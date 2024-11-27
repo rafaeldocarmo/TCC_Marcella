@@ -23,6 +23,7 @@
 .App-header-center div {
   display: flex;
   align-items: center;
+  justify-content: center;
   color: black;
   gap: 26px;
 }
@@ -31,14 +32,22 @@
   color: black;
   margin-top: 8px;
 }
+.App-header-center{
+  text-align: center;
+}
+.App-header-center img {
+  max-width: 300px;
+  margin-bottom: 15px;
+  text-align: center;
+}
 main{
   margin-bottom: 100px;
 }
-.products h4{
+.products p{
   margin-bottom: 40px;
   font-weight: 400;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 18px;
 }
 .cards-table {
   width: 100%;
@@ -66,7 +75,7 @@ main{
   margin: 100px 0;
   width: 100%;
   height: 400px;
-  background-image: url('../public/imgs/mid-banner.webp');
+  background-image: url('../public/imgs/mid-banner.jpeg');
   background-size: 100%;
   background-position: center;
   transition: background-size 0.3s ease;
@@ -161,7 +170,7 @@ main{
   padding: 3px 8px;
 }
 footer{
-  background-color: #9a2223;
+  background-color: #485607;
   padding: 60px 40px;
 }
 .footer-items{

@@ -1,74 +1,34 @@
 export const products = [
     {
-        Name: "MALHA COM CAMPUZ",
-        Price: "80,00",
-        Images: [
-            "card.webp",
-            "card2.jpeg"
-        ]
+        Name: "Bermuda Jeans",
+        Image: "bermuda_jeans.jpeg"
     },
     {
-        Name: "MALHA COM CAMPUZ",
-        Price: "80,00",
-        Images: [
-            "card.webp",
-            "card2.jpeg"
-        ]
+        Name: "Camiseta sem mangas preta",
+        Image: "regata.jpeg"
     },
     {
-        Name: "MALHA COM CAMPUZ",
-        Price: "80,00",
-        Images: [
-            "card.webp",
-            "card2.jpeg"
-        ]
+        Name: "Calça Cargo Cinza",
+        Image: "calca_cargo.jpeg"
     },
     {
-        Name: "MALHA COM CAMPUZ",
-        Price: "80,00",
-        Images: [
-            "card.webp",
-            "card2.jpeg"
-        ]
+        Name: "Camiseta Oversized Verde",
+        Image: "camiseta_verde.jpeg"
     },
     {
-        Name: "MALHA COM CAMPUZ",
-        Price: "80,00",
-        Images: [
-            "card.webp",
-            "card2.jpeg"
-        ]
+        Name: "Casaco de pelos zebra",
+        Image: "casaco_zebra.jpeg"
     },
     {
-        Name: "MALHA COM CAMPUZ",
-        Price: "80,00",
-        Images: [
-            "card.webp",
-            "card2.jpeg"
-        ]
+        Name: "Boné Bolovo Colorido",
+        Image: "bone.jpeg"
     },
     {
-        Name: "MALHA COM CAMPUZ",
-        Price: "80,00",
-        Images: [
-            "card.webp",
-            "card2.jpeg"
-        ]
+        Name: "Macacão Trucker Bege",
+        Image: "macacao.jpeg"
     },
     {
-        Name: "MALHA COM CAMPUZ",
-        Price: "80,00",
-        Images: [
-            "card.webp",
-            "card2.jpeg"
-        ]
+        Name: "Camisa Mangas Curtas Off White",
+        Image: "camisa.jpeg"
     },
-    {
-        Name: "MALHA COM CAMPUZ",
-        Price: "80,00",
-        Images: [
-            "card.webp",
-            "card2.jpeg"
-        ]
-    }
 ]

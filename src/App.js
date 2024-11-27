@@ -21,28 +21,16 @@ function App() {
 }
 
 const ProductCard = ({ item }) => {
-  const [imageSrc, setImageSrc] = useState(item.Images[0]);
-
-  const handleMouseEnter = () => {
-    setImageSrc(item.Images[1]);
-  };
-
-  const handleMouseLeave = () => {
-    setImageSrc(item.Images[0]);
-  };
 
   return (
     <div className="product">
       <div
         className="card"
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
       >
-        <img src={`/imgs/${imageSrc}`} alt={item.Name} />
+        <img src={`/imgs/${item.Image}`} alt={item.Name} />
       </div>
       <div className="description">
         <p className="name">{item.Name}</p>
-        <p className="price">R${item.Price}</p>
         <button>Comprar</button>
       </div>
     </div>
@@ -53,10 +41,10 @@ const BannerCarousel = () => {
   return (
     <Carousel>
       <Carousel.Item>
-      <div className="carousel-banner" style={{ backgroundImage: `url('/imgs/slide1.webp')` }}></div>
+      <div className="carousel-banner" style={{ backgroundImage: `url('/imgs/slide1.jpg')` }}></div>
       </Carousel.Item>
       <Carousel.Item>
-        <div className="carousel-banner" style={{ backgroundImage: `url('/imgs/slide2.webp')` }}></div>
+        <div className="carousel-banner" style={{ backgroundImage: `url('/imgs/slide2.jpg')` }}></div>
       </Carousel.Item>
     </Carousel>
   );
@@ -129,7 +117,7 @@ const Header = () => {
         <img src="/imgs/searchIcon.png" className="iconHeader" alt=""/>
 
         <div className="App-header-center">
-          <img src="/imgs/searchIcon.png" alt=""/>
+          <img src="/imgs/logo.png" alt=""/>
           <div>
             <a href="/">Inicio</a>
             <a href="/produtos">Produtos</a>
